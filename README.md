@@ -14,5 +14,10 @@ The entire bill of materials is minimal and includes only the following:
 * 3.3V power source(in my case, a Lipo battery)
 
 # Schematic 
+![alt text](https://github.com/mbocaneg/STM32-Chip8/blob/master/imgs/schematic.jpg)
+
+# Screenshot
+![alt text](https://github.com/mbocaneg/STM32-Chip8/blob/master/imgs/screenshot.jpg)
+
 
 
