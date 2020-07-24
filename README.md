@@ -12,5 +12,8 @@ This project uses the STM32f103 microcontroller to emulate the CHIP-8 virtual ma
 # Schematic
 ![alt text](https://github.com/mbocaneg/STM32-Chip8/blob/master/imgs/chip8_stm32_schm.PNG)
 
+# PCB
+![alt text](https://github.com/mbocaneg/STM32-Chip8/blob/master/imgs/chip8_stm32_pcb.PNG)
+
 
 
