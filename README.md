@@ -1,23 +1,16 @@
 # STM32-Chip8
-A threaded Chip8 core implemented on an ESTM32 microcontroller that runs under FreeRtos. Play retro video games in the palm of you hand!
+A CHIP-8 implementation that runs on the STM32f103 microcontroller.
 
-# Usage
 
-This entire project targets the STM32 microcontroller using CubeMX middleware from ST. As far as
-libraries go, I am using my homegrown CHIP8 core, Keypad, and LCD libraries.
+# Description
+This project uses the STM32f103 microcontroller to emulate the CHIP-8 virtual machine. It is capable of running retro video games, using a 16 button keypad and an SSD1306 OLED as I/O. It uses Free-RTOS to handle I/O and the CHIP-8 emulation cycle.
 
-The entire bill of materials is minimal and includes only the following:
-
-* STM32F1 MCU (project should work on ANY STM32 microcontroller with minimal code refactoring)
-* SSD1306 OLED display(I2C variant in this case)
-* Hex button keypad(8 leads)
-* 3.3V power source(in my case, a Lipo battery)
-
-# Schematic 
-![alt text](https://github.com/mbocaneg/STM32-Chip8/blob/master/imgs/schematic.jpg)
 
 # Screenshot
-![alt text](https://github.com/mbocaneg/STM32-Chip8/blob/master/imgs/screenshot.jpg)
+![alt text](https://github.com/mbocaneg/STM32-Chip8/blob/master/imgs/chip8_stm32.PNG)
+
+# Schematic
+![alt text](https://github.com/mbocaneg/STM32-Chip8/blob/master/imgs/chip8_stm32_schm.PNG)
 
 
 
